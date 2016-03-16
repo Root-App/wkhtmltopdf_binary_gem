@@ -2,12 +2,15 @@
 require 'rake'
 
 Gem::Specification.new do |s|
-  s.name = "wkhtmltopdf-binary"
+  s.name = "rootapp-wkhtmltopdf-binary"
+  s.summary = "WKHTMLTOPDF binaries"
+  s.description = "Provides binaries for WKHTMLTOPDF project in an easily accessible package."
   s.version = "0.9.9.3"
-  s.author = "Zakir Durumeric"
-  s.email = "zakird@gmail.com"
+  s.license = "Apache-2.0"
+  s.homepage = "https://github.com/Root-App/wkhtmltopdf_binary_gem"
+  s.author = "ROOT devs"
+  s.email = "devs@joinroot.com"
   s.platform = Gem::Platform::RUBY
-  s.summary = "Provides binaries for WKHTMLTOPDF project in an easily accessible package."
   s.files = Dir['bin/*']
   s.has_rdoc = false
   s.executables << "wkhtmltopdf"
